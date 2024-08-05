@@ -8,7 +8,7 @@ mongoose.connect(process.env.URL, {
 })
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://66b0b4bf0175d3d2115367bf--stupendous-pithivier-ae3382.netlify.app/",
     methods: ["GET", "POST"],
   },
 })
